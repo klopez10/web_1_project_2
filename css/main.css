@@ -1,5 +1,44 @@
+.social {
+	height: 40px;
+}
 body {
-    background-color: lightgrey;
+    background-color: gainsboro;
+}
+a {
+	text-decoration: none;
+}
+ main {
+	margin: auto;
+ }
+ /* .slider {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 30%;
+	background: white;
+ } */
+
+.flex-container {
+	width: 1000px;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+} 
+.sketches {
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	margin-top: 5px;
+}
+
+.button {
+	background: url('https://github.com/klopez10/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+	padding: 5px 70px;
+	background-color: gainsboro;
+	background-blend-mode: multiply;
+	color: white;
 }
 footer {
     background-color: grey;
