@@ -6,66 +6,90 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav>
-        <img src="assets/logo.png">
-        <a href="#">About</a>
-        <a href="#">Gallery</a>
-        <a href="#">Documents</a>
-        <img class="social" src="assets/icons/facebook.png" alt="facebook icon">
-        <img class="social" src="assets/icons/twitter.png" alt="twitter icon">
-        <a href="#">Login</a>
-        <a href="#">Register</a>
-    </nav>
     <main>
-        <img src="assets/arrows/left-arrow.png" alt="left arrow">
-        <!-- <div class="slider"> -->
-            <img src="assets/as6.jpg" alt="featured project slider">
-        <!-- </div> -->
-        <img src="assets/arrows/right-arrow.png" alt="right arrow">
-        <p>Designer, Project Title</p>
-        <p>Nessst is a network showcasing student solutions from Eastern Washington University</p>
-        <div class="flex-container">
-            <img class="sketches" src="assets/as1.jpg" alt="recent post">
-            <img class="sketches" src="assets/as2.jpg" alt="recent post">
-            <img class="sketches" src="assets/as3.jpg" alt="recent post">
-            <img class="sketches" src="assets/as4.jpg" alt="recent post">
-            <img class="sketches" src="assets/as5.jpg" alt="recent post">
-            <img class="sketches" src="assets/as6.jpg" alt="recent post">
-            <img class="sketches" src="assets/as7.jpg" alt="recent post">
-            <img class="sketches" src="assets/as8.jpg" alt="recent post">
-            <img class="sketches" src="assets/as9.jpg" alt="recent post">
-            <img class="sketches" src="assets/as10.jpg" alt="recent post">
-            <img class="sketches" src="assets/as11.jpg" alt="recent post">
-            <img class="sketches" src="assets/as12.jpg" alt="recent post">
-        </div>
-        <a href="#"> View More</a>
+        <nav>
+            <section class="website-nav">
+                <img src="assets/logo.png" alt="nesst logo">
+                <a href="#">About</a>
+                <a href="#">Gallery</a>
+                <a href="#">Documents</a>
+            </section>
+            <section class="social-nav">
+                <div class="social-websites">
+                    <a href="facebook.com"><img class="social-buttons" src="assets/icons/facebook.png" alt="facebook icon"></a>
+                    <a href="twitter.com"><img class="social-buttons" src="assets/icons/twitter.png" alt="twitter icon"></a>
+                </div>
+                <div class="website-login">
+                    <a href="#">Login |</a>
+                    <span><a href="#">Register</a></span>
+                </div>
+            </section>
+        </nav>
+        <header class="slide-gallery">
+            <img class="arrow" src="assets/arrows/left-arrow.png" alt="left arrow">
+            <h2 id="caption">Karinna Lopez, Project Two</h2>
+            <img class="arrow" src="assets/arrows/right-arrow.png" alt="right arrow">
+        </header>
+        <section class="main">
+            <h2 class="heading">Nessst is a network showcasing student solutions from Eastern Washington University</h2>
+            <div class="flex-container">
+                <img class="sketches" src="assets/as1.jpg" alt="recent post">
+                <img class="sketches" src="assets/as2.jpg" alt="recent post">
+                <img class="sketches" src="assets/as3.jpg" alt="recent post">
+                <img class="sketches" src="assets/as4.jpg" alt="recent post">
+                <img class="sketches" src="assets/as5.jpg" alt="recent post">
+                <img class="sketches" src="assets/as6.jpg" alt="recent post">
+                <img class="sketches" src="assets/as7.jpg" alt="recent post">
+                <img class="sketches" src="assets/as8.jpg" alt="recent post">
+                <img class="sketches" src="assets/as9.jpg" alt="recent post">
+                <img class="sketches" src="assets/as10.jpg" alt="recent post">
+                <img class="sketches" src="assets/as11.jpg" alt="recent post">
+                <img class="sketches" src="assets/as12.jpg" alt="recent post">
+            </div>
+            <div>
+                <a class="button" href="#">View More...</a>
+            </div>
+        </section>
     </main>
     <footer>
-        <img class="social" src="assets/icons/twitter.png" alt="twitter icon">
-        <p>Get ready for something big. #nessst is coming!</p>
-        <p>about 20 minutes ago...</p>
-        <img src="assets/logo.png">
-        <a href="#">About</a>
-        <a href="#">Gallery</a>
-        <a href="#">Documents</a>
-        <h2>Looking for someone?</h2>
-        <p>Find who you're looking for.</p>
-        <img src="#" alt="search icon">
-        <p>Search</p>
-        <h2>Visual Communcation Design</h2>
-        <p>A major in Visual Communication Design educates and prepares students to conceive and produce creative solutions to satisfy the visual communication needs of society.</p>
-        <a href="#">Read More...</a>
-        <a href="#"> View Gallery</a>
-        <div class="flex-container">
-        <img class="sketches" src="assets/as1.jpg" alt="recent post">
-        <img class="sketches" src="assets/as2.jpg" alt="recent post">
-        <img class="sketches" src="assets/as3.jpg" alt="recent post">
-        <img class="sketches" src="assets/as4.jpg" alt="recent post">
-        <img class="sketches" src="assets/as5.jpg" alt="recent post">
-        <img class="sketches" src="assets/as6.jpg" alt="recent post">
-        <img class="sketches" src="assets/as7.jpg" alt="recent post">
-        <img class="sketches" src="assets/as8.jpg" alt="recent post">
-        </div>
+        <section class="footer-heading">
+            <a href="twitter.com"><img class="social-buttons" src="assets/icons/bird.png" alt="twitter bird icon"></a>
+            <div id="footer-heading-spacing">
+                <p>Get ready for something big. #nessst is coming! <small>about 20 minutes ago...</small></p>
+            </div>
+        </section>
+        <section class="website-footer">
+            <nav class="website-footer-nav">
+                <div class="footer-main">
+                    <img src="assets/logo.png" alt="nesst logo" class="footer-logo">
+                    <a href="#">About</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Documents</a>
+                </div>
+                <div class="search">
+                    <h2>Looking for someone?</h2>
+                    <p>Find who you're looking for.</p>
+                    <input type="text" placeholder="Search..">
+                </div>
+            </nav>
+            <div class="middle">
+                <h2>Visual Communcation Design</h2>
+                <p>A major in Visual Communication Design educates and prepares students to conceive and produce creative solutions to satisfy the visual communication needs of society.</p>
+                <a href="#">Read More...</a>
+            </div>
+            <div class="gallery">
+                <a href="#"><h2>View Gallery</h2></a>
+                <div class="flex-container">
+                <img class="gallery-sketches" src="assets/as1.jpg" alt="recent post">
+                <img class="gallery-sketches" src="assets/as2.jpg" alt="recent post">
+                <img class="gallery-sketches" src="assets/as3.jpg" alt="recent post">
+                <img class="gallery-sketches" src="assets/as4.jpg" alt="recent post">
+                <img class="gallery-sketches" src="assets/as5.jpg" alt="recent post">
+                <img class="gallery-sketches" src="assets/as6.jpg" alt="recent post">
+                <img class="gallery-sketches" src="assets/as7.jpg" alt="recent post">
+                <img class="gallery-sketches" src="assets/as8.jpg" alt="recent post">
+            </div>
+        </section>
     </footer>
 </body>
 </html>
