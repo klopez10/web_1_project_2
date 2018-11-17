@@ -50,6 +50,9 @@ a {
 	justify-content: flex-end;
 	padding-top: 3%;
 }
+span {
+	margin-left: 1%;
+}
 .slide-gallery {
 	height: 500px;
 	border: white solid 10px;
