@@ -61,8 +61,8 @@ span {
 	width: 70%;
 	margin-right: 3%;
 	border: white solid 10px;
-	background-image: url(../assets/as4.jpg);
-	background-size: cover;
+	background-image: url(../assets/sketch.jpeg);
+	background-size: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -105,14 +105,15 @@ span {
 .user-image {
 	width: 130px;
 	height: 117px;
-	background-image: url(../assets/as1.jpg);
+	background-image: url(../assets/profile.png);
+	background-size: 100%;
 	position: absolute;
 	right: 5.8%;
-	top: 19%;
+	top: 20.3%;
 }
 .portfolio-title {
 	width: 24.2%;
-	height: 77.3%;
+	height: 86.4%;
 	background-color: white;
 	color: grey;
 	text-transform: uppercase;
@@ -132,13 +133,16 @@ span {
 	margin-right: 1%;
 }
 #alt1 {
-	background-image: url(../assets/as1.jpg)
+	background-image: url(../assets/sketch.jpeg);
+	background-size: 100%;
 }
 #alt2 {
-	background-image: url(../assets/as2.jpg)
+	background-image: url(../assets/sketch.jpeg);
+	background-size: 100%;
 }
 #alt3 {
-	background-image: url(../assets/as3.jpg)
+	background-image: url(../assets/sketch.jpeg);
+	background-size: 100%;
 }
 .main {
 	color: grey;
